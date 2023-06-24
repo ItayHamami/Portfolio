@@ -1,0 +1,133 @@
+
+.bg-image{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.intro{
+overflow-y:hidden;
+height: 100vh;
+
+}
+
+.card{
+margin-left: 15px;
+margin-right: 15px;
+width: 6rem;
+box-shadow: 6px 6px 19px 1px rgba(83,31,75,0.75);
+-webkit-box-shadow: 6px 6px 19px 1px rgba(83,31,75,0.75);
+-moz-box-shadow: 6px 6px 19px 1px rgba(83,31,75,0.75);
+display: flex;
+justify-content: center;
+
+}
+.card img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-img-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+
+.socLinks{
+    text-decoration: none;
+    color: black;
+}
+.socLinks:visited{
+    color: black;
+}
+
+.social a{
+    padding: 3px;
+    color: black;
+    
+}
+.social a:hover{
+    color: rgb(121, 2, 161);
+    
+
+}
+
+#content{
+min-height: 75vh;
+}
+
+
+
+
+#contact{
+    
+    height: 100vh;
+    width: 100vw;
+    background: url(assets/media/pramod-tiwari-YuNjfEelnKY-unsplash.jpg);
+    filter: brightness(1.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#formdiv{
+    box-shadow: 6px 6px 19px 1px rgba(83,31,75,0.75);
+    border-radius: 20px;
+    background: rgb(196, 158, 189);
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/*Post Form Page  */
+#postform{
+    background-image: url(https://images.unsplash.com/photo-1685286233685-c455946fdd7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1183&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+#thankyoudiv{
+padding: 20px;
+width: 60vw;
+height: 60vh;
+background-color: rgba(238, 235, 159, 0.756);   
+position: relative;
+margin: 0 auto;
+border-radius: 20px;
+}
+
+@media all and (max-width:30rem){
+    #thankyoudiv{
+height: 90vh;
+width: 90vw;
+    
+    }
+    }
+
+    @media (max-width: 767px) {
+        .card {
+          max-width: 85%;
+        }
+      }
+      
+      @media (min-width: 768px) and (max-width: 991px) {
+        .card {
+          max-width: 50%;
+        }
+      }
+      
+      @media (min-width: 992px) and (max-width: 1199px) {
+        .card {
+          max-width: 33.33%;
+        }
+      }
